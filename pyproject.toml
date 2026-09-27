@@ -1,0 +1,10 @@
+[project]
+name = "crossbow-reviewer"
+version = "1.0.0"
+description = "CrossbowReviewer-9B: calibrated, Jev-style code review decisions over a systemone-compatible API"
+requires-python = ">=3.12"
+license = "Apache-2.0"
+dependencies = ["torch", "transformers>=5.17", "huggingface_hub", "fastapi", "uvicorn", "httpx"]
+
+[tool.uv]
+package = false
